@@ -1,0 +1,18 @@
+/* 
+    Document   : retina.css
+    Author     : Sercan YEMEN
+    Description: Autumn Prestashop Theme - Retina Stylesheet
+*/
+
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+       only screen and (-moz-min-device-pixel-ratio: 1.5),
+       only screen and (-o-min-device-pixel-ratio: 3/2),
+       only screen and (min-device-pixel-ratio: 1.5) {
+           
+           
+           #footer .block .open-close-footer{
+               background: url('../img/autumn/down_up_arrows_big_2x.png') no-repeat 100% 0;
+           }
+
+}

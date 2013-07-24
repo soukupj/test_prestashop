@@ -1,0 +1,111 @@
+#blockcrossselling .title_block{
+    border-bottom:1px dotted #c0c0c0;
+    margin:40px 0 20px 0;
+    padding-bottom:16px;
+}
+
+h4.productscategory_h4 {
+    color:#666666;
+    font-size:18px;
+    line-height:24px;
+    margin:0;
+    padding:0;
+    float:left;
+}
+
+#crossselling {
+    position:relative;
+    overflow:visible;
+}
+
+
+#crossselling_list {
+    position: relative;
+    overflow: hidden;
+    /* You need at least a height, adjust this to your needs */
+    height: 280px;
+    margin:0;
+    float:none;
+}
+
+#blockcrossselling.rect_img #crossselling_list{
+    height: 360px;
+}
+
+#crossselling_list ul {
+    width: 20000em;
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#crossselling_list li {
+    margin:0 30px 0 0;
+    float:left;
+}
+
+#crossselling_list li a img{
+    width:192px;
+    height:auto;
+    margin:1px 1px 3px 1px;
+    border:8px solid #ffffff;
+    
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:2px;
+    
+    -moz-box-shadow: 0 0 0 1px rgba(0,0,0,0.095) , 0 1.5px 1.5px 0 rgba(0,0,0,0.2), 0 2px 1.5px 0 rgba(0, 0, 0, 0.1) ;
+    -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,0.095) , 0 1.5px 1.5px 0 rgba(0,0,0,0.2), 0 2px 1.5px 0 rgba(0, 0, 0, 0.1) ;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.095) , 0 1.5px 1.5px 0 rgba(0,0,0,0.2), 0 2px 1.5px 0 rgba(0, 0, 0, 0.1) ;
+}
+
+#crossselling_list li p.product_name{
+    text-align: left;
+    margin-top:4px;
+    font-weight:400;
+    font-size:15px;
+    padding:12px 0 5px 0;
+}
+
+#crossselling_list li p.price_display{
+    color: #DA3B44;
+    font-size:14px;
+    font-weight:700;
+}
+
+
+#blockcrossselling .carousel_controls{
+    display:block;
+    float:right;
+    line-height:24px;
+}
+
+#blockcrossselling .carousel_prev{
+    display:block;
+    background:url('../../../img/autumn/leftarrow_dark_medium.png') no-repeat 0 3px;
+    width:10px;
+    height:24px;
+    float:left;
+    margin-right:15px;
+}
+
+#blockcrossselling .carousel_next{
+    display:block;
+    background:url('../../../img/autumn/rightarrow_dark_medium.png') no-repeat 0 3px;
+    width:10px;
+    height:24px;
+    float:left;
+}
+
+/* Responsive Rules */
+
+@media only screen and (max-width: 479px){
+
+    #crossselling_list li{ width:300px; }
+    #crossselling_list li a img{ width:282px; }
+
+    #crossselling_list {height:350px}
+    
+    #blockcrossselling.rect_img #crossselling_list {height:500px}
+    
+}

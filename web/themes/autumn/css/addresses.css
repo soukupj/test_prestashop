@@ -1,0 +1,67 @@
+div.addresses {
+   position:relative;
+   padding:15px;
+   border:1px solid #ccc;
+	font-size:12px;
+   background:#f8f8f8
+}
+
+ul.address {
+   list-style-type:none;
+   float:left;
+   position:relative;
+}
+
+ul.address li {
+	padding:0 15px;
+	font-weight:bold;
+	line-height:18px;
+	text-transform:uppercase
+}
+
+ul.address li.address_title {
+   height: 29px;
+   font-weight: bold;
+   line-height:29px;
+   color:#fff;
+    text-shadow:0 1px 0 #666;
+   background:url(../img/bg_table_th.png) repeat-x 0 -10px #999
+}
+
+ul.address li.address_firstname,
+ul.address li.address_company {
+	margin-top:8px
+}
+
+ul.address  li.address_update,
+ul.address li.address_delete {
+	font-size:11px;
+   text-transform:none
+}
+
+.address_add {
+   padding:20px 0
+}
+
+.address_select {
+	border:1px solid #ccc;
+	width: 200px;
+}
+
+
+p.address_delivery,
+p.addressesAreEquals,
+#address_invoice_form {
+	padding-bottom: 15px
+}
+
+/* PAGE ADRESSES ******************************************************************************* */
+
+
+.addresses ul.address .address_update {padding:10px 0;}
+.addresses ul.address .address_update,
+.addresses ul.address .address_delete {
+	font-size:11px;
+   text-transform:none
+}
+

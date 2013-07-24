@@ -1,0 +1,179 @@
+/*** ESSENTIAL STYLES ***/
+.sf-contener{
+    clear:none;
+    position:relative;
+    display:block;
+    margin:30px 0 0 160px;
+    height:70px;
+    max-width:720px;
+    z-index:25;
+}
+
+.sf-contener .sf-menu{
+    margin:18px 0 0 0;
+    padding:0;
+    width:auto;
+    background:none;
+        
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+}
+
+.sf-contener .sf-menu ul{
+    position:absolute;
+    background:#ffffff;
+    border:1px solid #e1e1e1;
+    
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 0 4px 0 rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 0 4px 0 rgba(0,0,0,0.1);
+    
+    -moz-border-radius:0;
+    -webkit-border-radius:0;
+    border-radius:0;
+    
+    padding:20px;
+    width:5em;
+}
+
+.sf-shadow ul{
+    background:none;
+    padding:0;
+}
+
+.sf-contener .sf-menu li{
+    background:none;
+    border:none;
+}
+
+.sf-contener .sf-menu li:last-of-type{
+    border-right:none;
+}
+
+.sf-contener .sf-menu > li > a{
+    text-transform:uppercase;
+    font-size:13px;
+    padding:10px 15px;
+}
+
+.sf-contener .sf-menu > li > a:active {
+    color:#DA3B44;
+}
+
+.sf-contener .sf-menu a{
+    display:block;
+    position:relative;
+    color:#ffffff;
+    font-size:13px;
+    line-height:13px;
+    padding:0;
+    margin:0;
+}
+
+.sf-contener .sf-menu a, .sf-menu a:visited{
+    color:#666666;
+}
+
+.sf-sub-indicator{
+    display:none!important;
+}
+
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+    background: none;
+    color:#da3b44;
+}
+
+.sfHoverForce > a{
+    color:#da3b44!important;
+}
+
+.sf-menu ul li:hover, .sf-menu ul li.sfHover,
+.sf-menu ul li a:focus, .sf-menu ul li a:hover, .sf-menu ul li a:active {
+    background:none;
+}
+
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+    left:10px;
+    top:32px; /* match top ul list item height */
+    z-index:-10;
+    width:auto;
+}
+
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+    left:150px;
+    top:-10px;
+}
+
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+    top: 0px;
+}
+
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+    top:0px;
+}
+
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+    left:150px;
+    top:0;
+}
+
+.sf-contener .sf-menu li li {
+    border-right:none;
+    padding:12px 0 0 0;
+    width:auto;
+    min-width:150px;
+}
+
+.sf-contener .sf-menu li li:first-child {
+    border-right:none;
+    padding:0;
+}
+
+.sf-contener .sf-menu li li li {
+    border-right:none;
+    padding:12px 0 0 0;
+}
+
+.sf-contener .sf-menu li li li:first-child {
+    border-right:none;
+    padding:0;
+}
+
+
+
+
+
+.sf-right {
+  margin-right: 14px;
+  float: right;
+  width: 7px;
+}
+
+.sf-menu, .sf-menu * {
+	margin:			0;
+	padding:		0;
+	list-style:		none;
+}
+
+
+.sf-menu ul li {
+	width:			100%;
+}
+.sf-menu li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+
+.sf-menu li {
+	float:			left;
+	position:		relative;
+	border-right: 1px solid #777;
+}
+
+
+
