@@ -1,0 +1,52 @@
+/* Block Viewed Products */
+#viewed-products_block_left .products li {
+	display:inline-block;
+        float:left;
+	padding:10px 0;
+        margin-right:20px;
+        width:110px;
+        min-height:150px;
+}
+#viewed-products_block_left .products li.last_item_of_line {
+        margin-right:0;
+}
+    
+
+#viewed-products_block_left .content_img { 
+        display:block;
+	float:left;
+	padding:5px;
+        
+        -moz-border-radius:2px;
+        -webkit-border-radius:2px;
+        border-radius:2px;
+
+        -moz-box-shadow: 0 0 0 1px rgba(0,0,0,0.095) , 0 1.5px 1.5px 0 rgba(0,0,0,0.2), 0 2px 1.5px 0 rgba(0, 0, 0, 0.1) ;
+        -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,0.095) , 0 1.5px 1.5px 0 rgba(0,0,0,0.2), 0 2px 1.5px 0 rgba(0, 0, 0, 0.1) ;
+        box-shadow: 0 0 0 1px rgba(0,0,0,0.095) , 0 1.5px 1.5px 0 rgba(0,0,0,0.2), 0 2px 1.5px 0 rgba(0, 0, 0, 0.1) ;
+        
+	text-decoration:none;
+	background:#ffffff;
+}
+#viewed-products_block_left .text_desc {
+	float:left;
+        padding:10px 0 0 0;
+        font-size:12px;
+}
+#viewed-products_block_left li img {
+        width:100px;
+        height:auto;
+}
+    
+
+#viewed-products_block_left li .text_desc .s_title_block a, #viewed-products_block_left li .text_desc a {
+	color:#333;
+}
+
+#viewed-products_block_left li .text_desc p,
+#viewed-products_block_left li .text_desc p a {
+	padding-bottom:0;
+	line-height:14px;
+	color:#666
+}
+

@@ -1,0 +1,71 @@
+.social-link-info{
+    float:left;
+    line-height:50px;
+    color:#f2f2f2;
+    font-size:16px;
+    font-weight:200;
+    margin-right:20px;
+}
+
+.social-link{
+    height:50px;
+    width:50px;
+    overflow:hidden;
+    float:left;
+    margin-left:1px;
+}
+
+.social{
+    background-image:url('img/sociallinks.jpg');
+    background-size:100px 300px;
+    background-repeat:no-repeat;
+    display:block;
+    height:50px;
+    width:50px;
+}
+
+.social.mail{ background-position: 0 0; }
+.social.mail:hover{ background-position: -50px 0; }
+
+.social.facebook{ background-position: 0 -50px; }
+.social.facebook:hover{ background-position: -50px -50px; }
+
+.social.twitter{ background-position: 0 -100px; }
+.social.twitter:hover{ background-position: -50px -100px; }
+
+.social.google{ background-position: 0 -150px; }
+.social.google:hover{ background-position: -50px -150px; }
+
+.social.pinterest{ background-position: 0 -200px; }
+.social.pinterest:hover{ background-position: -50px -200px; }
+
+.social.skype{ background-position: 0 -250px; }
+.social.skype:hover{ background-position: -50px -250px; }
+
+
+/* Custom Icons */
+
+.custom-social-link{
+    display:block;
+    width:50px;
+    margin-left:1px;
+    overflow:hidden;
+    float:left;
+}
+
+.custom-social-link:hover img {
+    margin-left:-50px;
+}
+
+/* Retina */
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+       only screen and (-moz-min-device-pixel-ratio: 1.5),
+       only screen and (-o-min-device-pixel-ratio: 3/2),
+       only screen and (min-device-pixel-ratio: 1.5) {
+       
+            .social{
+                 background-image: url('img/sociallinks_2x.jpg')!important;    
+            }
+            
+}

@@ -1,0 +1,81 @@
+#module-mailalerts-mailalerts-account #left_column {display:none}
+#module-mailalerts-mailalerts-account #center_column {width:757px}
+
+#mailalerts_block_account .mailalert {
+   position:relative;
+   margin-bottom: 20px;
+}
+
+.mailalert a.product_img_link {
+    display: block;
+    float: left;
+    margin-right: 14px;
+    overflow: hidden;
+    position: relative;
+    padding:8px;
+    border:none;
+    
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:2px;
+    
+    -moz-box-shadow: 0 0 0 1px rgba(0,0,0,0.095) , 0 1.5px 1.5px 0 rgba(0,0,0,0.2), 0 2px 1.5px 0 rgba(0, 0, 0, 0.1) ;
+    -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,0.095) , 0 1.5px 1.5px 0 rgba(0,0,0,0.2), 0 2px 1.5px 0 rgba(0, 0, 0, 0.1) ;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.095) , 0 1.5px 1.5px 0 rgba(0,0,0,0.2), 0 2px 1.5px 0 rgba(0, 0, 0, 0.1) ;
+    
+    background:#ffffff;    
+}
+
+
+.mailalert h3 {
+    display:block;
+    float:left;
+}
+
+.mailalert .product_desc {
+    display:block;
+    overflow:hidden;
+    float:none;
+    margin-top:20px;
+}
+
+.mailalert .remove {
+    display:block;
+    overflow:hidden;
+    padding:5px 0 0 8px;
+}
+
+.mailalert .remove .icon {cursor:pointer}
+
+
+/* lnk fiche produit */
+
+#usefull_link_block li#mailalerts_block_extra_remove {
+	padding-left:20px;
+	background:url(img/del_alert.gif) no-repeat 0 0;
+	cursor: pointer;
+}
+
+.product_mail_alerts{
+    display:block;
+    clear:both;
+    overflow:hidden;
+    margin-bottom:30px;
+}
+
+.product_mail_alerts input{
+    float:left;
+    width:240px;
+}
+
+.product_mail_alerts a{
+    display:block;
+    clear:both;
+    float:left;
+    width:240px;
+    margin-top:10px;
+}
+
+.product_mail_alerts a:hover{
+    text-decoration:none!important;
+}

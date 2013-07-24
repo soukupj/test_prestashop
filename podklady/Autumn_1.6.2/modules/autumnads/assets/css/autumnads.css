@@ -1,0 +1,38 @@
+#autumn-ads{
+    margin:40px 0;
+}
+#autumn-ads .ad{
+    display:block;
+    overflow:hidden;
+    
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    
+    border:8px solid #ffffff;
+    
+    border-radius:2px;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.095) , 0 1.5px 1.5px 0 rgba(0,0,0,0.2), 0 2px 1.5px 0 rgba(0, 0, 0, 0.1) ;
+    -moz-box-shadow: 0 0 0 1px rgba(0,0,0,0.095) , 0 1.5px 1.5px 0 rgba(0,0,0,0.2), 0 2px 1.5px 0 rgba(0, 0, 0, 0.1) ;
+    -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,0.095) , 0 1.5px 1.5px 0 rgba(0,0,0,0.2), 0 2px 1.5px 0 rgba(0, 0, 0, 0.1) ;
+}
+
+.autumn-ads-ad-image{
+    width:100%;
+    vertical-align:bottom;
+}
+
+@media only screen and (max-width: 767px) {
+    
+        #autumn-ads .ad{
+            margin-bottom:30px;
+        }
+        
+        #autumn-ads .ad.last{
+            margin-bottom:0;
+        }
+        
+}

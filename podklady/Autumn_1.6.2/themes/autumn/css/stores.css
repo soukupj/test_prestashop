@@ -1,0 +1,30 @@
+#stores .store_input{
+    margin-bottom:20px;
+}
+
+#stores label {
+    display:block;
+    clear:both;
+    font-weight:bold;
+}
+
+#stores #addressInput {
+    width:300px;
+}
+
+#stores_loader {
+    display: none;
+    margin-left: 5px
+}
+
+#locationSelect {
+   visibility: hidden;
+   width: 300px;
+}
+
+#stores #center_column p .button {float:right}
+
+#map {
+   margin:20px auto;
+   height:400px;
+}

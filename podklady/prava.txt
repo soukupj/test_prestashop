@@ -1,0 +1,12 @@
+d_perm config/
+d_perm cache/
+d_perm log/
+d_perm img
+d_perm mails/
+d_perm modules/
+d_perm themes/default/cache/
+d_perm translations/
+d_perm upload/
+d_perm download/
+d_perm themes/default/lang/
+chmod 777 sitemap.xml

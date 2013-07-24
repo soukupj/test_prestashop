@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <module>
+            <name>autumnads</name>
+            <displayName><![CDATA[Autumn Theme - Frontpage Ads Module]]></displayName>
+            <version><![CDATA[1.0]]></version>
+            <description><![CDATA[Frontpage ads module with multilanguage and multistore support]]></description>
+            <author><![CDATA[Sercan YEMEN]]></author>
+            <tab><![CDATA[front_office_features]]></tab>
+            <is_configurable>1</is_configurable>
+            <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+        </module>

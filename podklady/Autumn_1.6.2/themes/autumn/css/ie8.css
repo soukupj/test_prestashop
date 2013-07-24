@@ -1,0 +1,54 @@
+/* 
+    Document   : ie8.css
+    Author     : Sercan YEMEN
+    Description: Autumn Prestashop Theme - IE8 Hacks
+*/
+
+/* General Styles */
+body{
+    font-family: Arial, sans-serif;
+    font-weight: normal!important;
+}
+
+input[type=text],
+input[type=password]{
+    line-height: 24px!important;
+}
+
+/* Header */
+#header-fluid{
+    border-bottom:1px solid #c0c0c0;
+}
+
+/* Search Expanded */
+.ac_results{
+    border:1px solid #eaeaea!important;
+}
+
+/* Cart Block */
+#header #cart_block{
+    border:1px solid #eaeaea;
+}
+
+/* Product Categories */
+#product_list li .ajax_add_to_cart_button span{
+    height:32px;
+    border-color:#C92D36;
+}
+
+/* Shopping Cart */
+table#cart_summary .cart_quantity .cart_quantity_input{
+    width:40px;
+}
+
+.autumnshowcase_block .new{
+    top:-18px;
+    right: -38px;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(SizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476)";
+}
+
+#product_list li span.new{
+    top:-18px;
+    right: -38px;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(SizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476)";
+}

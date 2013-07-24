@@ -1,0 +1,80 @@
+#module-favoriteproducts-account #left_column {display:none}
+#module-favoriteproducts-account #center_column {width:757px}
+
+#favoriteproducts_block_account .favoriteproduct {
+   position:relative;
+   margin-bottom: 20px;
+}
+
+#favoriteproducts_block_account .favoriteproduct a.product_img_link{
+    display: block;
+    float: left;
+    margin-right: 14px;
+    overflow: hidden;
+    position: relative;
+    padding:8px;
+    border:none;
+    
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:2px;
+    
+    -moz-box-shadow: 0 0 0 1px rgba(0,0,0,0.095) , 0 1.5px 1.5px 0 rgba(0,0,0,0.2), 0 2px 1.5px 0 rgba(0, 0, 0, 0.1) ;
+    -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,0.095) , 0 1.5px 1.5px 0 rgba(0,0,0,0.2), 0 2px 1.5px 0 rgba(0, 0, 0, 0.1) ;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.095) , 0 1.5px 1.5px 0 rgba(0,0,0,0.2), 0 2px 1.5px 0 rgba(0, 0, 0, 0.1) ;
+    
+    background:#ffffff;    
+}
+
+
+#favoriteproducts_block_account .favoriteproduct h3{
+    display:block;
+    float:left;
+}
+
+#favoriteproducts_block_account .favoriteproduct .remove{
+    display:block;
+    overflow:hidden;
+    padding:5px 0 0 8px;
+}
+
+#favoriteproducts_block_account .favoriteproduct .product_desc{
+    display:block;
+    overflow:hidden;
+    float:none;
+    margin-top:20px;
+}
+
+.favoriteproduct .remove .icon {cursor:pointer}
+
+
+/* lnk fiche produit */
+
+#usefull_link_block li#favoriteproducts_block_extra_add {
+	padding-left:26px;
+	background:url("../../../img/autumn/add_favorite.png") no-repeat 0 0;
+	cursor: pointer;
+        color:#666666;
+}
+
+#usefull_link_block li#favoriteproducts_block_extra_remove {
+	padding-left:26px;
+	background:url("../../../img/autumn/del_favorite.png") no-repeat 0 0;
+	cursor: pointer;
+        color:#666666;
+}
+
+ul#usefull_link_block li#favoriteproducts_block_extra_added {
+	padding-left:26px;
+	background:url("../../../img/autumn/del_favorite.png") no-repeat 0 0;
+	cursor: pointer;
+	display: none;
+        color:#666666;
+}
+ul#usefull_link_block li#favoriteproducts_block_extra_removed {
+	padding-left:26px;
+	background:url("../../../img/autumn/add_favorite.png") no-repeat 0 0;
+	cursor: pointer;
+	display: none;
+        color:#666666;
+}

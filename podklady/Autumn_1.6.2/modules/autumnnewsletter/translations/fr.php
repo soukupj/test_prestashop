@@ -1,0 +1,32 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{autumnnewsletter}prestashop>autumnnewsletter_c6f2ebf2b3d1c413a1b8312eec0b0c3c'] = 'Autumn Theme - Newsletter';
+$_MODULE['<{autumnnewsletter}prestashop>autumnnewsletter_804a924e464fd21ed92f820224c4091d'] = 'Generates a .CSV file for mass mailings';
+$_MODULE['<{autumnnewsletter}prestashop>autumnnewsletter_c3987e4cac14a8456515f0d200da04ee'] = 'All countries';
+$_MODULE['<{autumnnewsletter}prestashop>autumnnewsletter_fa01fd956e87307bce4c90a0de9b0437'] = 'Customers\' country';
+$_MODULE['<{autumnnewsletter}prestashop>autumnnewsletter_c0859b0a5241dff468da2a9a93c3284f'] = 'Operate a filter on customers\' country.';
+$_MODULE['<{autumnnewsletter}prestashop>autumnnewsletter_2198f293f5e1e95dddeff819fbca0975'] = 'Newsletter subscribers';
+$_MODULE['<{autumnnewsletter}prestashop>autumnnewsletter_99006a61d48499231e1be92241cf772a'] = 'Filter newsletter subscribers.';
+$_MODULE['<{autumnnewsletter}prestashop>autumnnewsletter_7e3a51a56ddd2846e21c33f05e0aea6f'] = 'All customers';
+$_MODULE['<{autumnnewsletter}prestashop>autumnnewsletter_39f7a3e2b56e9bfd753ba6325533a127'] = 'Subscribers';
+$_MODULE['<{autumnnewsletter}prestashop>autumnnewsletter_011d8c5d94f729f013963d856cd78745'] = 'Non-subscribers';
+$_MODULE['<{autumnnewsletter}prestashop>autumnnewsletter_793ee192a9124cd6f529460eef17d3e5'] = 'Opted-in subscribers';
+$_MODULE['<{autumnnewsletter}prestashop>autumnnewsletter_7b15c043d66fecc45c8752592aa38e38'] = 'Filter opted-in subscribers.';
+$_MODULE['<{autumnnewsletter}prestashop>autumnnewsletter_82e5e0bc0f9c776c98253d569c111c0f'] = 'No customers found with these filters!';
+$_MODULE['<{autumnnewsletter}prestashop>autumnnewsletter_04e7c39a16e4d89fe9c3861af82ececa'] = 'The .CSV file has been successfully exported. (%d customers found)';
+$_MODULE['<{autumnnewsletter}prestashop>autumnnewsletter_48e3d5f66961b621c78f709afcd7d437'] = 'Download the file';
+$_MODULE['<{autumnnewsletter}prestashop>autumnnewsletter_faa1115fbab933e7178ee43ce1590977'] = 'WARNING: If opening this .csv file with Excel, remember to choose UTF-8 encoding or you may see strange characters.';
+$_MODULE['<{autumnnewsletter}prestashop>autumnnewsletter_81573e0ea79138f02fd2cee94786d7e9'] = 'Error: cannot write';
+$_MODULE['<{autumnnewsletter}prestashop>autumnnewsletter_8d550e9bf69bfc7a09be6eeb1622ae23'] = 'There are two sorts for this module:';
+$_MODULE['<{autumnnewsletter}prestashop>autumnnewsletter_ab22739e2d65b19809af368ac191b12b'] = 'Persons who have subscribed using the AutumnNewsletterBlock block in the front office.';
+$_MODULE['<{autumnnewsletter}prestashop>autumnnewsletter_2efcefff52eec42e4caa218e431390b8'] = 'This is a list of e-mail addresses of persons who come to your store that do not become customers, but have subscribed to your newsletter. Using the \"Export Newsletter Subscribers\" below will generate a .CSV file based on the AutumnNewsletterBlock subscribers data.';
+$_MODULE['<{autumnnewsletter}prestashop>autumnnewsletter_74ca54506cdbc82e3aa763ba91b8fa39'] = 'Customers that have checked \"yes\" to receive a newsletter in their customer profile.';
+$_MODULE['<{autumnnewsletter}prestashop>autumnnewsletter_1aa14f5a6423dbde1ef2cfe4734980b4'] = 'The \"Export Customers\" section below filters which customers you want to send a newsletter to.';
+$_MODULE['<{autumnnewsletter}prestashop>autumnnewsletter_b88ab9d24e0d7b3700f71f57003dc6e4'] = 'Export Newsletter Subscribers from the AutumnNewsletterBlock';
+$_MODULE['<{autumnnewsletter}prestashop>autumnnewsletter_3ff58598b5ba4f51683ad5788cf23509'] = 'Generate a .CSV file based on AutumnNewsletterBlock subscribers data.';
+$_MODULE['<{autumnnewsletter}prestashop>autumnnewsletter_769050278dda5e93374adda37811e413'] = 'Only subscribers without an account on the shop will be exported.';
+$_MODULE['<{autumnnewsletter}prestashop>autumnnewsletter_dbb392a2dc9b38722e69f6032faea73e'] = 'Export .CSV file';
+$_MODULE['<{autumnnewsletter}prestashop>autumnnewsletter_4713ef5f2d6fc1e8f088c850e696a04b'] = 'Export customers';
+$_MODULE['<{autumnnewsletter}prestashop>autumnnewsletter_2a96d838a5e89b86792669f0ab422987'] = 'Generate a .CSV file from customer account data.';
